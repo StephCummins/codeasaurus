@@ -1,0 +1,10 @@
+$header-font: 'Anton', sans-serif;
+$primary-color: #3bedb7;
+
+body {
+  background-color: $primary-color;
+}
+
+h1 {
+  font-family: $header-font;
+}
