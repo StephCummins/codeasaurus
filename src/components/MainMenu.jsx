@@ -1,12 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function mainMenu() {
+const mainMenu = () => {
   return (
     <ul className="mainMenu">
-      <li>ABOUT</li>
-      <li>PORTFOLIO</li>
-      <li>BLOG</li>
-      <li>CONTACT</li>
+      <li>
+        <strong>
+          <Link to="/portfolio">PORTFOLIO</Link>
+        </strong>
+      </li>
+      <li>
+        <strong>
+          <Link to="/about">ABOUT</Link>
+        </strong>
+      </li>
+      <li>
+        <strong>
+          <Link to="/blog">BLOG</Link>
+        </strong>
+      </li>
+      <li>
+        <strong>
+          <Link to="/contact">CONTACT</Link>
+        </strong>
+      </li>
     </ul>
   );
-}
+};
+
+export default mainMenu;

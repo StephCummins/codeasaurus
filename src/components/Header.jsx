@@ -1,12 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MainMenu from './MainMenu.jsx';
 import Logo from './Logo.jsx';
 
-export default function Header() {
+const Header = () => {
   return (
     <nav className="header">
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
       <MainMenu />
     </nav>
   );
-}
+};
+
+export default Header;
