@@ -2,10 +2,14 @@ import React from 'react';
 
 const Section = ({ title, children }) => {
   return (
-    <section>
-      <h2 className="sectionChild">{title}</h2>
-      <article className="sectionChild">{children}</article>
-    </section>
+    <div>
+      <div className="triangle top"></div>
+      <section>
+        <h2>{title}</h2>
+        <article>{children}</article>
+      </section>
+      <div className="triangle bottom"></div>
+    </div>
   );
 };
 

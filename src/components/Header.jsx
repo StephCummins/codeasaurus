@@ -5,12 +5,15 @@ import Logo from './Logo.jsx';
 
 const Header = () => {
   return (
-    <nav className="header">
-      <Link to="/">
-        <Logo />
-      </Link>
-      <MainMenu />
-    </nav>
+    <div className="header">
+      <nav>
+        <Link to="/">
+          <Logo />
+        </Link>
+        <MainMenu />
+      </nav>
+      <div className="triangleMenu"></div>
+    </div>
   );
 };
 
