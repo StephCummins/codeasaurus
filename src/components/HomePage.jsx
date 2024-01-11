@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header.jsx';
 import Section from './Section.jsx';
 import wave from '../../public/assets/wavejs_portfolio.png';
+import floof from '../../public/assets/floof_portfolio.png';
+import cerebro from '../../public/assets/cerebro_portfolio.png';
 import ProjectHighlights from './ProjectHighlights.jsx';
 import Footer from './Footer.jsx';
 
@@ -71,8 +73,28 @@ const HomePage = () => {
           </p>
         </Section>
         <Section title="Project Highlights">
-          <p>My recent project highlights include:</p>
-          <ProjectHighlights image={wave} alt="wave.js Portfolio Image" />
+          <div className="frontpageProjects">
+            <ProjectHighlights
+              image={wave}
+              alt="wave.js Portfolio Image"
+              role="Software Engineer | wave.js (Open Source)"
+              description="Scalable video live streaming framework for Node.js dev environments,
+            featuring multi-stream support for real-time RTMP ingest, encoding to
+            HLS and MPEG-DASH, and low-latency live stream delivery."
+            />
+            <ProjectHighlights
+              image={floof}
+              alt="floof Portfolio Image"
+              role="Software Engineer | floof (Open Source)"
+              description="Social networking app targeted at pet owners and animal lovers. floof is a small-scale distributed system with a Node.js server at the core to streamline HTTP requests to endpoints, including retrieving images and data from AWS on the cloud."
+            />
+            <ProjectHighlights
+              image={cerebro}
+              alt="Cerebro Portfolio Image"
+              role="Software Engineer | Cerebro (Open Source)"
+              description="Personalized learning app featuring a virtual AI tutor, powered by openAI’s API, for self-paced, interactive study sessions."
+            />
+          </div>
         </Section>
       </main>
       <Footer />
