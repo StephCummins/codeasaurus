@@ -104,6 +104,19 @@ section {
       font-size: 1.15rem;
       letter-spacing: 1.15px;
     }
+
+    a:link {
+      color: $primary-color;
+      font-family: $header-font;
+    }
+
+    a:active {
+      color: $primary-color;
+    }
+
+    a:visited {
+      color: $primary-color;
+    }
   }
 
   img {
@@ -156,6 +169,22 @@ section {
     max-width: 400px;
   }
   margin: 20px 40px;
+}
+
+button {
+  background-color: $primary-color;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: $header-font;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(4px);
 }
 
 footer {
