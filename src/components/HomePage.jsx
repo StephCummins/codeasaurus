@@ -12,7 +12,7 @@ const HomePage = () => {
     <div className="homePage">
       <Header />
       <main>
-        <Section title="Hello, World!">
+        <Section title="HELLO, WORLD!">
           <p>
             I am a{'  '}
             <span>
@@ -42,7 +42,7 @@ const HomePage = () => {
             entertainment technology space.
           </p>
         </Section>
-        <Section title="Tech Stack">
+        <Section title="TECH STACK">
           <p>
             I have <span>STRONG EXPERIENCE</span> in the following technologies:
           </p>
@@ -72,12 +72,12 @@ const HomePage = () => {
             CI/CD<span> • </span>AWS (S3, EC2, DynamoDB, Elastic Beanstalk)
           </p>
         </Section>
-        <Section title="Project Highlights">
+        <Section title="PROJECT HIGHLIGHTS">
           <div className="frontpageProjects">
             <ProjectHighlights
               image={wave}
               alt="wave.js Portfolio Image"
-              role="Software Engineer | wave.js (Open Source)"
+              role="Software Engineer | wave.js"
               description="Scalable video live streaming framework for Node.js dev environments,
             featuring multi-stream support for real-time RTMP ingest, encoding to
             HLS and MPEG-DASH, and low-latency live stream delivery."
@@ -85,13 +85,14 @@ const HomePage = () => {
             <ProjectHighlights
               image={floof}
               alt="floof Portfolio Image"
-              role="Software Engineer | floof (Open Source)"
+              role="Software Engineer | floof"
               description="Social networking app targeted at pet owners and animal lovers. floof is a small-scale distributed system with a Node.js server at the core to streamline HTTP requests to endpoints, including retrieving images and data from AWS on the cloud."
             />
+            <div className="break"></div>
             <ProjectHighlights
               image={cerebro}
               alt="Cerebro Portfolio Image"
-              role="Software Engineer | Cerebro (Open Source)"
+              role="Software Engineer | Cerebro"
               description="Personalized learning app featuring a virtual AI tutor, powered by openAI’s API, for self-paced, interactive study sessions."
             />
           </div>
