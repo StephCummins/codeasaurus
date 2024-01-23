@@ -21,7 +21,7 @@ const mainMenu = () => {
       </li>
       <li>
         <strong>
-          <Link to="/contact">CONTACT</Link>
+          <Link to="/connect">CONNECT</Link>
         </strong>
       </li>
     </ul>

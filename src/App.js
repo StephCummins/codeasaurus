@@ -5,7 +5,7 @@ import HomePage from './components/HomePage.jsx';
 import PortfolioPage from './components/PortfolioPage.jsx';
 import AboutPage from './components/AboutPage.jsx';
 import BlogPage from './components/BlogPage.jsx';
-import ContactPage from './components/ContactPage.jsx';
+import ConnectPage from './components/ConnectPage.jsx';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <Route path="/portfolio" element={<PortfolioPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/blog" element={<BlogPage />} />
-      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/connect" element={<ConnectPage />} />
     </Routes>
   );
 };

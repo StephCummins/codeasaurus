@@ -30,13 +30,18 @@ const BlogPage = () => {
             teams with fewer resources by engineering wave.js, an accessible and
             customizable open source framework for video live streaming. Learn
             about it in the blog post I wrote for wave.js.{' '}
-            <a
+            {/* <a
               href="https://medium.com/@wavejs/introducing-wave-js-accessible-video-live-streaming-for-node-based-dev-environments-bce898a61732"
               target="_blank"
             >
               READ MORE
-            </a>
+            </a> */}
           </p>
+          <Button
+            className="readMore"
+            text="Read More"
+            url="https://medium.com/@wavejs/introducing-wave-js-accessible-video-live-streaming-for-node-based-dev-environments-bce898a61732"
+          />
         </Section>
       </main>
       <Footer />
