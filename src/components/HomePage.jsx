@@ -34,13 +34,6 @@ const HomePage = () => {
             </span>
             .
           </p>
-          <p>
-            My passion for technology stems from my love of coding, problem
-            solving, film, and video editing, as well as my previous experience
-            collaborating with software engineers to understand their pain
-            points and tell their stories for clients across the media and
-            entertainment technology space.
-          </p>
         </Section>
         <Section title="TECH STACK">
           <p>
