@@ -22,7 +22,6 @@ const BlogPage = () => {
           </div>
         </Section>
         <Section className="blogPost" title="January 16, 2023">
-          <h3></h3>
           <p>
             Integrating video live streaming into application codebases can be
             expensive and complex for smaller developer teams and startups to

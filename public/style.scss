@@ -203,13 +203,7 @@ button:active {
 
   .icon {
     width: 150px;
-    margin: 50px 10px 10px;
-  }
-
-  p {
-    font-size: 1.5rem;
-    font-family: $header-font;
-    color: $primary-color;
+    margin: 0px 10px 10px;
   }
 }
 
@@ -219,6 +213,11 @@ button:active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0px 30px 50px;
+
+  button {
+    padding: 5px 15px;
+  }
 }
 
 footer {
@@ -290,6 +289,19 @@ footer {
       width: 600px;
     }
   }
+
+  .connectIcons {
+    .icon {
+      width: 120px;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+  }
+
+  .column {
+    margin: 0px 15px 50px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -321,6 +333,26 @@ footer {
     p {
       width: 500px;
     }
+  }
+  .connectIcons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      width: 120px;
+      margin: 30px 10px 10px;
+    }
+
+    p {
+      font-size: 1.5rem;
+      font-family: $header-font;
+      color: $primary-color;
+    }
+  }
+
+  .column {
+    margin-bottom: 20px;
   }
 }
 
