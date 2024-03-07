@@ -11,8 +11,8 @@ const ConnectPage = () => {
       <main>
         <Section title="CONNECT">
           <p className="highlight center">
-            Want to connect? I'm open to new career opportunities and contract
-            projects.
+            <h1>Want to connect?</h1>
+            I'm open to new career opportunities and contract projects.
             <br />
             <br />
             Feel free to reach out, network on LinkedIn, or view my full
